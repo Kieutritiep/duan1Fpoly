@@ -5,6 +5,6 @@
             $this->connListProduct = new listProductUsersModel;
         }
         public function listProductUser(){
-            require_once './views/users/listProductUser.php';
+            require_once './views/users/products/listProductUser.php';
         }
     }

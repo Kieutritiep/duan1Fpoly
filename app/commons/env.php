@@ -4,7 +4,7 @@
 // Khai báo dưới dạng HẰNG SỐ để không phải dùng $GLOBALS
 // đường dẫn vào client
 // config/config.php
-define('BASE_URL', 'http://localhost/duanmau/shopX/public'); // Đường dẫn URL của bạn
+define('BASE_URL', 'http://localhost/baseDuanpoly/app/'); // Đường dẫn URL của bạn
 define('DB_HOST'    , 'localhost');
 define('DB_PORT'    , 3306);
 define('DB_USERNAME', 'root');
