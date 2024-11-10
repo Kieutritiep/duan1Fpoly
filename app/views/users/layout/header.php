@@ -84,7 +84,9 @@
             <input type="text" class="form-control rounded-4 pe-5 me-5" placeholder="Search" required>
             <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3" style="color: gray;"></i>
         </form>
-        <i class="fa-solid fa-user me-5 ms-5 fs-4"></i>
+        <a href="" class="text-decoration-none text-reset">
+            <i class="fa-solid fa-user me-5 ms-5 fs-4"></i>
+        </a>
         <a href="#" class="position-relative text-reset text-decoration-none">
             <i class="fa-solid fa-cart-shopping me-5 fs-4"></i>
             <p class="position-absolute top-0 start-50 translate-middle bg-danger text-white rounded-circle d-flex justify-content-center align-items-center" style="width: 20px; height: 20px; font-size: 12px;">1</p>
@@ -92,42 +94,4 @@
     </div>
 </header>
         <!-- end header -->
-        <!-- start Banner -->
-        <div class="container" style="padding:0 80px;">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./public/images/banner3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                <img src="./public/images/banner2.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-                </div>
-                <div class="carousel-item">
-                <img src="./public/images/banner1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-            <!-- end Banner -->
-            <div class="d-flex align-items-center justify-content-center mt-5">
-                <img src="./public/images/logoApplemain.png" alt="" class="img-fluid" style="width: 20px; height: 22px;">
-                <p class="text-white mb-0 ms-2 fw-bold">iPhone</p>
-            </div>
+        
