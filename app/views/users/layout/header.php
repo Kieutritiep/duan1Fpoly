@@ -306,7 +306,7 @@
         <div class="flex-grow-1">
             <ul class="d-flex list-unstyled m-0 justify-content-center">
                 <li class="mx-3">
-                    <a href="index.php?act=home" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Trang Chủ</a>
+                    <a href="" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Trang Chủ</a>
                 </li>
                 <li class="mx-3">
                     <a href="#" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Sản phẩm mới ra mắt</a>
@@ -324,7 +324,7 @@
         <a href="#" class="text-decoration-none text-reset">
             <i class="fa-solid fa-user me-5 ms-5 fs-4"></i>
         </a>
-        <a href="index.php?act=cart_dt" class="position-relative text-reset text-decoration-none">
+        <a href="" class="position-relative text-reset text-decoration-none">
             <i class="fa-solid fa-cart-shopping me-5 fs-4"></i>
             <p class="position-absolute top-0 start-50 translate-middle bg-danger text-white rounded-circle d-flex justify-content-center align-items-center" style="width: 20px; height: 20px; font-size: 12px;">1</p>
         </a>
