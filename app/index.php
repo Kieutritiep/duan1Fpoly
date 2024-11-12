@@ -33,13 +33,9 @@ try {
         // điều hướng đến user
         match ($act) {
             '/' => (new listProductUsersController())->listProductUser(),
-            'login' => (new loginController())->login(),
-            'register' => (new registerController())->register(),
+
              
-            'cart_dt'=> include "./views/users/carts/cart_details.php",
-            'cart_trong'=> include "./views/users/carts/cart_trong.php",
-            'home'=> include "./views/users//products/listProductUser.php",
-            default => throw new Exception('404 Not Found', 404),
+
         };
     }
     
