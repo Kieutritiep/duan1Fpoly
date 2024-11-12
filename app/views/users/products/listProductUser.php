@@ -1,7 +1,7 @@
 <?php
     require_once $_SERVER['DOCUMENT_ROOT'] .'/baseDuanpoly/app/views/users/layout/header.php';
 ?><!-- start Banner -->
-        <div class="container" style="padding:0 80px;">
+        <div class="container2" style="padding:0 80px;">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -52,6 +52,14 @@
                         <a href="" class="d-flex align-items-center p-2 rounded hover-block text-decoration-none">
                             <input type="radio" name="product">
                             <p class="text-white mb-0 ms-2">iPhone 13</p>
+                        </a>
+                        <a href="" class="d-flex align-items-center p-2 rounded hover-block text-decoration-none">
+                            <input type="radio" name="product">
+                            <p class="text-white mb-0 ms-2">iPhone 12</p>
+                        </a>
+                        <a href="" class="d-flex align-items-center p-2 rounded hover-block text-decoration-none">
+                            <input type="radio" name="product">
+                            <p class="text-white mb-0 ms-2">iPhone 12</p>
                         </a>
                         <a href="" class="d-flex align-items-center p-2 rounded hover-block text-decoration-none">
                             <input type="radio" name="product">
