@@ -180,7 +180,7 @@
         /* background: transparent; */
     }
     .btn:hover {
-        background: ;
+        /* background: ; */
         color: #fff;
     }
     .logreg-link {
