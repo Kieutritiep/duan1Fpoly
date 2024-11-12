@@ -7,27 +7,33 @@ require_once './commons/function.php'; // Hàm hỗ trợ
 // Require toàn bộ file Controllers admin
 // Require toàn bộ file Controllers users
 require_once './controllers/users/listProductUserController.php';
+require_once './controllers/users/loginController.php';
+require_once './controllers/users/registerController.php';
 
 // Require toàn bộ file Models admin
 
 
 // Require toàn bộ file Models users
 require_once './models/users/listProductUserModel.php';
+require_once './models/users/loginModel.php';
+require_once './models/users/registerModel.php';
 
 // Route
 $act = $_GET['act'] ?? '/';
 // Điều hướng dựa trên giá trị $act
 try {
     if (strpos($act, 'admin/') === 0) {
-        // Điều hướng cho phần quản trị
+        // Điều hướng đến admin
         $adminAction = substr($act, 6); 
         match ($adminAction) {
             
         };
     } else {
-        // điều hướng cho phần quản trị viên
+        // điều hướng đến user
         match ($act) {
             '/' => (new listProductUsersController())->listProductUser(),
+            'login' => (new loginController())->login(),
+            'register' => (new registerController())->register(),
              
             default => throw new Exception('404 Not Found', 404),
         };
