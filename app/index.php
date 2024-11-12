@@ -33,15 +33,12 @@ try {
         // điều hướng đến user
         match ($act) {
             '/' => (new listProductUsersController())->listProductUser(),
-<<<<<<< HEAD
+
             'login' => (new loginController())->login(),
             'register' => (new registerController())->register(),
-             
-=======
             'cart_dt'=> include "./views/users/carts/cart_details.php",
             'cart_trong'=> include "./views/users/carts/cart_trong.php",
             'home'=> include "./views/users//products/listProductUser.php",
->>>>>>> 637da0f212a56193b7247e3118c0fc42b592315b
             default => throw new Exception('404 Not Found', 404),
         };
     }
