@@ -69,7 +69,7 @@
         <div class="flex-grow-1">
             <ul class="d-flex list-unstyled m-0 justify-content-center">
                 <li class="mx-3">
-                    <a href="#" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Trang Chủ</a>
+                    <a href="index.php?act=home" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Trang Chủ</a>
                 </li>
                 <li class="mx-3">
                     <a href="#" class="menu-link text-reset text-decoration-none px-3 py-2 d-block">Sản phẩm mới ra mắt</a>
@@ -84,10 +84,10 @@
             <input type="text" class="form-control rounded-4 pe-5 me-5" placeholder="Search" required>
             <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3" style="color: gray;"></i>
         </form>
-        <a href="" class="text-decoration-none text-reset">
+        <a href="#" class="text-decoration-none text-reset">
             <i class="fa-solid fa-user me-5 ms-5 fs-4"></i>
         </a>
-        <a href="#" class="position-relative text-reset text-decoration-none">
+        <a href="index.php?act=cart_dt" class="position-relative text-reset text-decoration-none">
             <i class="fa-solid fa-cart-shopping me-5 fs-4"></i>
             <p class="position-absolute top-0 start-50 translate-middle bg-danger text-white rounded-circle d-flex justify-content-center align-items-center" style="width: 20px; height: 20px; font-size: 12px;">1</p>
         </a>

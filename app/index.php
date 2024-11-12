@@ -8,6 +8,7 @@ require_once './commons/function.php'; // Hàm hỗ trợ
 // Require toàn bộ file Controllers users
 require_once './controllers/users/listProductUserController.php';
 
+
 // Require toàn bộ file Models admin
 
 
@@ -28,10 +29,13 @@ try {
         // điều hướng cho phần quản trị viên
         match ($act) {
             '/' => (new listProductUsersController())->listProductUser(),
-             
+            'cart_dt'=> include "./views/users/carts/cart_details.php",
+            'cart_trong'=> include "./views/users/carts/cart_trong.php",
+            'home'=> include "./views/users//products/listProductUser.php",
             default => throw new Exception('404 Not Found', 404),
         };
     }
+    
 } catch (Exception $e) {
     http_response_code($e->getCode());
     echo $e->getMessage();

@@ -1,7 +1,7 @@
 <?php
     require_once $_SERVER['DOCUMENT_ROOT'] .'/baseDuanpoly/app/views/users/layout/header.php';
 ?><!-- start Banner -->
-        <div class="container" style="padding:0 80px;">
+        <dclass="container" style="padding:0 80px;"iv class="container" style="padding:0 80px;">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -206,7 +206,7 @@
                 </div>
             </main>
         </div>
-    </div>
+    </dclass=>
 <?php 
     require_once $_SERVER['DOCUMENT_ROOT'] .'/baseDuanpoly/app/views/users/layout/footter.php';
 ?>
