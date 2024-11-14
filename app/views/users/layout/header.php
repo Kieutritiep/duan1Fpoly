@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <style>
+
     .product-card {
         background-color: #323232;
         border-radius: 10px;
@@ -290,6 +291,7 @@
         transform:rotate(-12deg) skewY(-42deg);
         transition-delay:1.2s
     }
+
 </style>
 <body>
     <div class="" style="background-color: #3E3E3F;">
