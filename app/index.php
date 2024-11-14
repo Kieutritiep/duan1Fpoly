@@ -35,6 +35,7 @@ require_once './models/admin/listcustomersAdminModel.php';
 require_once './models/admin/listProductsAdminModel.php';
 require_once './models/admin/odersAdminModel.php';
 require_once './models/admin/ramAdminModel.php';
+require_once './models/admin/detailcommentsAdminModel.php';
 
 // Require toàn bộ file Models users
 require_once './models/users/listProductUserModel.php';
@@ -50,15 +51,15 @@ try {
         match ($adminAction) {
             '' => (new homeAdminController())->homeAdmin(),
             'listProducts' => (new listProductAdminController())->listProducts(),
-            'detailProducts' => (new listProductAdminController())->detailProducts(),
-            'categorys' => (new categorysAdminController())->categorys(),
+            'detailProducts' => (new detailProductAdminController())->detailProducts(),
+            'categorys' => (new categorysAdminController())->categorysController(),
             'listcustomers' => (new listcustomersAdminController())->listcustomers(),
             'detailcustomer' => (new detailcustomersAdminController())->detailcustomer(),
             'comments' => (new commentsAdminController())->comments(),
-            'detailcomments' => (new detailcommentscommentsAdminController())->detailcomments(),
+            'detailcomments' => (new detailcommentsAdminController())->detailcomments(),
             'ram' => (new ramAdminController())->ram(),
             'capacity' => (new capacityAdminController())->capacity(),
-            'color' => (new ramAdminController())->color(),
+            'color' => (new colorAdminController())->color(),
             'oders' => (new odersAdminController())->oders(),
             'detailoders' => (new detailOdersAdminController())->detailOders(),
         }; 

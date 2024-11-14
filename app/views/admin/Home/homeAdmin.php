@@ -272,7 +272,7 @@
               <li class="nav-item">
                 <a href="./?act=admin/detailcustomer" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Chi tiết thông tin khách hàng</p>
+                  <p>Chi tiết khách hàng</p>
                 </a>
               </li>
             </ul>
