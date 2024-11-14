@@ -1,11 +1,8 @@
 <?php
     require_once $_SERVER['DOCUMENT_ROOT'] .'/baseDuanpoly/app/views/users/layout/header.php';
 ?><!-- start Banner -->
-<<<<<<< HEAD
         <div class="container2" style="padding:0 80px;">
-=======
         <dclass="container" style="padding:0 80px;"iv class="container" style="padding:0 80px;">
->>>>>>> 637da0f212a56193b7247e3118c0fc42b592315b
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
