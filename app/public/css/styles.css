@@ -2,6 +2,7 @@
     background-color: #343a40;
     text-decoration: none; 
 }
+
 .product-card {
     background-color: #323232;
     border-radius: 10px;
@@ -281,3 +282,4 @@ transition-delay: calc(.1s * var(--j));
     transform:rotate(-12deg) skewY(-42deg);
     transition-delay:1.2s
 }
+
